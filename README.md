@@ -1,4 +1,4 @@
-haskell-euler
+haskell-uva
 =============
 
-Implementations of various Project Euler problems in Haskell.
+Implementations of various problems from UVa Online Judge.
