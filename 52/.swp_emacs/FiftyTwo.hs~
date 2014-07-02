@@ -1,0 +1,10 @@
+fingerprint :: Int -> Int
+fingerprint x
+    | x < 10 = 10^(x - 1)
+    | otherwise = fingerprint (mod x 10) + fingerprint (div x 10)
+
+sameDigits :: Int -> Int -> Bool
+sameDigits x y
+    | (logBase 10 x) /= (logBase 10 y) = False
+    | x == y = True
+    | 
